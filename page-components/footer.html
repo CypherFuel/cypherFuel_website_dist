@@ -1,0 +1,63 @@
+<!-- #region Footer -->
+<section class="section section--black footer-links">
+    <div class="container">
+      <div class="grid">
+        <div class="divisions">
+          <h4>Links</h4>
+          <ul>
+            <li>
+              <a data-ga-category="footer-links" 
+              data-ga-action="click" 
+              data-ga-label="programming-and-scripting" target="_blank" href="/services/software-development/#programming-and-scripting">Home</a>
+            </li>
+            <li>
+              <a data-ga-category="footer-links" 
+              data-ga-action="click" 
+              data-ga-label="ui-development" target="_blank" href="/#what-is-cypherfuel">What is CypherFuel?</a>
+            </li>
+            <li>
+              <a data-ga-category="footer-links" 
+              data-ga-action="click" 
+              data-ga-label="integration-development" target="_blank" href="/#features">Features</a>
+            </li>
+            <li>
+              <a data-ga-category="footer-links" 
+              data-ga-action="click" 
+              data-ga-label="mobile-app-development" target="_blank" href="/pricing/">Pricing</a>
+            </li>
+            <li>
+              <a data-ga-category="footer-links" 
+              data-ga-action="click" 
+              data-ga-label="cms-development" target="_blank" href="/contact-us/">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="logo">
+        <div>
+          <a data-ga-category="footer-links" 
+          data-ga-action="click" 
+          data-ga-label="cypherfuel-logo" target="blank" href="/"><img src="/cypherFuel-logo.png" alt="CypherFuel Logo" /></a>
+        </div>
+  </section>
+  <!-- #endregion -->
+
+  <!-- #region Copyright -->
+  <footer class="section section--black footer-copyright">
+    <div class="container">
+      <p>Copyright CypherFuel 2022-<span id="current-year"></span> | All Rights Reserved | <!-- <a
+          data-ga-category="footer-links" 
+          data-ga-action="click" 
+          data-ga-label="terms-of-service" href="/terms-of-service/">Company Terms of Service</a> --></p>
+    </div>
+  </footer>
+  <!-- #endregion -->
+  
+  <script>
+    setTimeout(() => {
+      const yearElement = document.getElementById("current-year");
+      if (yearElement) {
+        yearElement.textContent = new Date().getFullYear().toString();
+      }
+    }, 100);
+  </script>
